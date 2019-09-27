@@ -19,7 +19,7 @@ function getUserInput() {
 
 function displayImages(data) {
   data.message.forEach(item => {
-    $(".images").append(`<img src=${item} alt= 'dog image'>`)
+    $('.images').append(`<img src=${item} alt= 'dog image'>`);
   });
 }
 
